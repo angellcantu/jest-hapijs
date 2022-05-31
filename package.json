@@ -1,0 +1,32 @@
+{
+  "name": "jest-hapijs",
+  "version": "1.0.0",
+  "description": "Testing API with Jest Framework",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "jest --verbose"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/angellcantu/jest-hapijs.git"
+  },
+  "keywords": [
+    "node",
+    "test",
+    "jest",
+    "hapi"
+  ],
+  "author": "Angel Cantu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/angellcantu/jest-hapijs/issues"
+  },
+  "homepage": "https://github.com/angellcantu/jest-hapijs#readme",
+  "dependencies": {
+    "@hapi/hapi": "^20.2.2"
+  },
+  "devDependencies": {
+    "jest": "^28.1.0"
+  }
+}
